@@ -13,7 +13,8 @@ public class HelloWorldApp {
     }
 
     @GetMapping("/")
-    public String hello() {
-        return "Hello, Spring Boot World!";
+    public String hello() 
+    {
+        return "Hello, Spring Boot!";
     }
 }
